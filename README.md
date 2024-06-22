@@ -1,7 +1,7 @@
 ![Logo]()
 
 
-# Cat Photo App
+# C😺t Ph📷t📷 App
 
 HTML tags give a webpage its structure. 
 Use HTML tags to add photos, buttons, and other elements to your webpage.
@@ -35,6 +35,7 @@ Web browser
 
 - Learn to code HTLML, CSS, Javascript ... on [W3shools](www.w3schools.com "World's largest web developer site.")
 
+- See the list of Emoji on [Emojipedia](www.emojipedia.org "Emoji reference site.") 
 
 
 ## License
