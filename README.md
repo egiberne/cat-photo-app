@@ -29,7 +29,7 @@ Web browser
 
 ## Acknowledge
 
-- Learn to Code [freeCodeCamp - learn-accessibility-by-building-a-quiz](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app "From the Front-End Developer Roadmap")
+- Learn to Code [freeCodeCamp - learn-html-by-building-a-cat-photo-app ](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app "From the Front-End Developer Roadmap")
 
 - See the Markdown Cheatsheet on [Markdown Guide](www.markdownguide.org "Reference website about Markdown Language.")
 
