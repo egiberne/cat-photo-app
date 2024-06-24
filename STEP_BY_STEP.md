@@ -16,7 +16,7 @@ Here is the basic syntax:
 The first element you will learn about is the `h1` element. The `h1` element is a heading element and is used for the main heading of a webpage.
 
 <details>
-<summary>Example Code</summary>
+<summary> <h3> Example Code </h3></summary>
 
 ```html  
 <h1>This is a main heading</h1>
@@ -62,7 +62,8 @@ Here is an example of a comment with the `TODO: Remove h1`:
 
 ```html
 <!-- TODO: Remove h1 -->
- 
+ ```
+
 
 
 Add a comment above the p element with this text:
