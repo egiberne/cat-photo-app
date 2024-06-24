@@ -62,6 +62,7 @@ Here is an example of a comment with the `TODO: Remove h1`:
 
 ```html
 <!-- TODO: Remove h1 -->
+ 
 
 
 Add a comment above the p element with this text:
