@@ -106,3 +106,22 @@ Here is an example of *nesting* and *indentation*:
 </details>
 The `h1` element, `h2` element and the *comment* are indented two spaces more than the main element in the code below. Use the space bar on your keyboard to add two more spaces in front of the `p` element so that it is indented properly as well.
 
+## Step 7 | Add an Image to the Webapp
+You can add images to your website by using the `img` element. `img` elements have an opening tag without a closing tag. A tag for an element without a closing tag is known as a self-closing tag.
+
+Add an `img` element below the `p` element. At this point, no image will show up in the browser.
+
+## Step 8
+HTML *attributes* are special words used inside the opening tag of an element to control the element's behavior. The `src` *attribute* in an `img `element specifies the image's *URL* (where the image is located).
+
+Here is an example of an img element with a src attribute pointing to the freeCodeCamp logo:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<img src=img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg" >
+```
+</details>
+
+Inside the existing img element, add a src attribute with this URL:
