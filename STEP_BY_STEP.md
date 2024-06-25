@@ -16,7 +16,7 @@ Here is the basic syntax:
 The first element you will learn about is the `h1` element. The `h1` element is a heading element and is used for the main heading of a webpage.
 
 <details>
-<summary> <h3> Example Code </h3></summary>
+
 
 ```html  
 <h1>This is a main heading</h1>
@@ -64,7 +64,7 @@ Here is an example of a comment with the `TODO: Remove h1`:
 <!-- TODO: Remove h1 -->
  ```
 
-
+</details>
 
 Add a comment above the p element with this text:
 
@@ -86,7 +86,7 @@ The `main` element is used to represent the main content of the body of an HTML 
 ```
 </details>
 
-Identify the main section of this page by adding a <main> opening tag before the `h1` element, and a </main> closing tag after the `p` element.
+Identify the main section of this page by adding a `<main>` opening tag before the `h1` element, and a `</main>` closing tag after the `p` element.
 
 
 ## Step 6 | Nest Elements and indent
