@@ -1,36 +1,41 @@
 ![Logo]()
 
 
-#  Perky Ph😃t😃 App
+#  Perky Photo App
 
-## Synopsis
+## 💡 Synopsis
 
 This project is a simple webpage that displays a photo.
 
-## Summary
+## 📝 Summary
 
 HTML tags give a webpage its structure. 
 Use HTML tags to add photos, buttons, and other elements to your webpage.
 
-> :information_source: **Note:** This is a guided project module, completed end-to-end by following step-by-step instructions. 
+> ℹ️ **Note:** This is a guided project module, completed end-to-end by following step-by-step instructions. 
 
-## Features
+## 🧩 Features
 
 - Learn the most common HTML tags.
 
 
-## Requirements
+## 🔧 Requirements
 
 - Web browser
 - Text editor
 
-## Tools
+## 🧰 Tools
 
 - Visual Studio Code
 - Microsoft Edge
 
+## 🪄 Installation
 
-## Acknowledgments
+
+
+## 🤝 Acknowledgments
+
+## 📚 References
 
 - Learn to Code [freeCodeCamp - learn-html-by-building-a-cat-photo-app ](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app "From the Front-End Developer Roadmap")
 
@@ -41,6 +46,7 @@ Use HTML tags to add photos, buttons, and other elements to your webpage.
 - See the list of Emoji on [Emojipedia](http://www.emojipedia.org "Emoji reference site.") 
 
 
-## License
+## 🛡️ Security
+## ⚖️ License
 
 [Unlicense](https://unlicense.org/)
