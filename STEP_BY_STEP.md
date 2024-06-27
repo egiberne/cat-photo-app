@@ -111,7 +111,7 @@ You can add images to your website by using the `img` element. `img` elements ha
 
 Add an `img` element below the `p` element. At this point, no image will show up in the browser.
 
-## Step 8
+## Step 8 | Add a URL to the Image Source
 HTML *attributes* are special words used inside the opening tag of an element to control the element's behavior. The `src` *attribute* in an `img `element specifies the image's *URL* (where the image is located).
 
 Here is an example of an img element with a src attribute pointing to the freeCodeCamp logo:
@@ -127,7 +127,7 @@ Here is an example of an img element with a src attribute pointing to the freeCo
 Inside the existing img element, add a src attribute with this URL: 
 https://bluesmileyfaces.netlify.app/bluesmileyfaces.png
 
-## Step 9
+## Step 9 | Add an Alt Attribute to the Image
 All `img` elements should have an `alt` attribute. The `alt` attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
 
 Here is an example of an `img` element with an `alt` attribute:
@@ -144,7 +144,7 @@ Inside the `img` element, add an `alt` attribute with this text:
 A cute orange cat lying on its back
 
 
-## Step 10
+## Step 10 | Create a Hyperlink
 You can link to another page with the anchor (a) element.
 
 Here is an example linking to https://www.freecodecamp.org:
