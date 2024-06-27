@@ -1,3 +1,6 @@
+
+# Learn HTML by Building a Photo App
+
 ## Step 1 | Set the Heading Element level 1 as the main heading
 HTML elements have an opening and closing tag with content in between.
 
