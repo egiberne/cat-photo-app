@@ -1,7 +1,7 @@
-![Logo]()
+![Logo](banner.png)
 
 
-#  Perky Photo App
+#  Smiley Photo App
 
 ## 💡 Synopsis
 
