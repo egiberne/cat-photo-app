@@ -124,4 +124,37 @@ Here is an example of an img element with a src attribute pointing to the freeCo
 ```
 </details>
 
-Inside the existing img element, add a src attribute with this URL:
+Inside the existing img element, add a src attribute with this URL: 
+https://bluesmileyfaces.netlify.app/bluesmileyfaces.png
+
+## Step 9
+All `img` elements should have an `alt` attribute. The `alt` attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+Here is an example of an `img` element with an `alt` attribute:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<img src="cat.jpg" alt="A cat">
+```
+</details>
+
+Inside the `img` element, add an `alt` attribute with this text:
+A cute orange cat lying on its back
+
+
+## Step 10
+You can link to another page with the anchor (a) element.
+
+Here is an example linking to https://www.freecodecamp.org:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<a href="https://www.freecodecamp.org"></a>
+```
+</details>
+
+Add an anchor element after the paragraph that links to https://freecatphotoapp.com. At this point, the link won’t show up in the preview.
