@@ -145,7 +145,7 @@ A cute orange cat lying on its back
 
 
 ## Step 10 | Create a Hyperlink
-You can link to another page with the anchor (a) element.
+You can link to another page with the anchor `a` element.
 
 Here is an example linking to https://www.freecodecamp.org:
 
@@ -158,3 +158,21 @@ Here is an example linking to https://www.freecodecamp.org:
 </details>
 
 Add an anchor element after the paragraph that links to https://freecatphotoapp.com. At this point, the link won’t show up in the preview.
+
+
+## Step 11 | Add Link Text to a Hyperlink
+A link's text must be placed between the opening and closing tags of an anchor `a` element.
+
+Here is an example of a link with the text click here to go to freeCodeCamp.org:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a>
+```
+
+Add the anchor text link to cat pictures to the anchor element. This will become the link's text.
+</details>
+
+
