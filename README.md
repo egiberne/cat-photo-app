@@ -34,7 +34,7 @@ Use HTML tags to add photos, buttons, and other elements to your webpage.
 1. Clone the repository
 2. Open the project in Visual Studio Code
 3. Open the file, STEP_BY_STEP.md
-4. Follow the instructions in the file
+4. Follow the [instructions](STEP_BY_STEP.md) in the file
 
 ## 🤝 Acknowledgments
 
@@ -50,6 +50,8 @@ Use HTML tags to add photos, buttons, and other elements to your webpage.
 
 
 ## 🛡️ Security
+[Security](SECURITY)
+
 ## ⚖️ License
 
-[Unlicense](https://unlicense.org/)
+[Unlicense](LICENSE)
