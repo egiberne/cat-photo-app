@@ -180,3 +180,38 @@ Add the anchor text link to cat pictures to the anchor element. This will become
 </details>
 
 
+## Step 12 | add a link to the gallery
+You can turn any text into a link, such as the text inside of a `p` element.
+
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<p>I think <a href="https://www.freecodecamp.org">freeCodeCamp</a> is great.</p>
+
+```
+</details>
+In the text of your p element, turn the words cat photos into a link by adding opening and closing anchor `a `tags around these words. Then set the href attribute to https://freecatphotoapp.com
+
+## Step 13 | Remove the Second Link
+Now that you turned the text cat photos inside the `p `element into a link, you don't need the second link below the p element. Delete the entire anchor element below the p element.
+
+
+## Step 14 | add target attribute to open links in a new tab
+To open links in a new tab, you can use the target attribute on the anchor `a` element.
+
+The `target` attribute specifies where to open the linked document.`target="_blank"` opens the linked document in a new tab or window.
+
+Here is the basic syntax for an a element with a target attribute:
+
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+
+```
+</details>
+Add a target attribute with the value `_blank` to the anchor `a` element's opening tag, so that the link opens in a new tab.
