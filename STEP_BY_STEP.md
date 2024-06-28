@@ -216,3 +216,89 @@ Here is the basic syntax for an a element with a target attribute:
 </details>
 
 Add a target attribute with the value `_blank` to the anchor `a` element's opening tag, so that the link opens in a new tab.
+
+
+## Step 15 | Turn an Image into a Link
+In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+
+Here is an example of turning an image into a link:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<a href="example-link">
+  <img src="image-link.jpg" alt="A photo of a cat.">
+</a>
+```
+</details>
+
+Turn the image into a link by surrounding it with necessary element tags. 
+Use https://freecatphotoapp.com as the anchor's href attribute value.
+
+
+## Step 16 | Add a Section Element
+Before adding any new content, you should make use of a `section` element to separate the cat photos content from the future content.
+
+The `section` element is used to define *sections* in a document, such as *chapters*, *headers*, *footers*, or any other sections of the document. It is a *semantic* element that helps with **SEO** and **accessibility**.
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<section>
+  <h2>Section Title</h2>
+  <p>Section content...</p>
+</section>
+```
+</details>
+
+Take your `h2`, comment, `p`, and anchor `a ` elements and nest them in a section element.
+
+
+## Step 17 | Add a New Section
+It is time to add a new `section`. Add a second `section` element below the existing `section` element.
+
+## Step 18 | Add a subheading Element
+Within the second `section` element, add a new `h2`element with the text *Cat Lists*.
+
+
+## Step 19 | Add a Lower Rank Heading Element
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
+
+After the last `h2` element of the second section element, add an `h3` element with this text:
+
+*Things cats love:*
+
+## Step 20 | Add an Unordered List
+To create an **unordered list** of items, you can use the `ul` element.
+
+After the h3 element with the Things cats love: text, add an **unordered list**, `ul` element. Note that nothing will be displayed at this point.
+
+## Step 21 | Add List Items to the Unordered List
+The `li` element is used to create a list item in an ordered or unordered list.
+
+Here is an example of list items in an unordered list:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+```
+</details>
+Within the ul element nest three list items to display three things cats love:
+
+`baby` `kitty` `puppy` 
+
+## Step 22 
+After the **unordered list**, add a new image with a `src` attribute value set to:
+
+`https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg`
+
+And its `alt `attribute value to:
+
+`A slice of lasagna on a plate.`
