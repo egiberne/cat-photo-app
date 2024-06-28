@@ -3,7 +3,7 @@
 
 #  Smiley Photo App
 
-## 💡 Synopsis
+## 💭 Synopsis
 
 This project is a simple webpage that displays a photo.
 
