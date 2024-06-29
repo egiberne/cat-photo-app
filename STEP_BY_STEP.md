@@ -292,13 +292,42 @@ Here is an example of list items in an unordered list:
 </details>
 Within the ul element nest three list items to display three things cats love:
 
-`baby` `kitty` `puppy` 
+`cub` `kitten` `puppy` 
 
-## Step 22 
+## Step 22 | add an new image to the webapp
 After the **unordered list**, add a new image with a `src` attribute value set to:
 
 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg`
 
-And its `alt `attribute value to:
+And its `alt `attribute value to: `A slice of lasagna on a plate.`
 
-`A slice of lasagna on a plate.`
+
+## Step 23 | Add a Figure Element
+The `figure` element represents self-contained content and will allow you to associate an image with a **caption**.
+
+Nest the image you just added within a `figure` element.
+
+## Step 24 | Add a Caption to an Image
+A **figure caption**,`figcaption` element is used to add a **caption** to describe the image contained within the `figure` element.
+
+Here is an example of a `figcaption` element with the caption of *A cute cat*:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+```
+</details>
+
+After the image nested in the figure element, add a `figcaption` element with text set to:
+`People cherish puppies; Everyone likes puppies.`
+
+
+## Step 26
+After the figure element, add another h3 element with the text:
+
+Top 3 things cats hate:
