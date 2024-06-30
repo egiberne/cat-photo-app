@@ -129,7 +129,7 @@ Here is an example of an img element with a src attribute pointing to the freeCo
 </details>
 
 Inside the existing img element, add a src attribute with this URL: 
-https://bluesmileyfaces.netlify.app/bluesmileyfaces.png
+`![faces.png](https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg)`
 
 ## Step 9 | Add an Alt Attribute to the Image
 All `img` elements should have an `alt` attribute. The `alt` attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
@@ -151,7 +151,7 @@ A cute orange cat lying on its back
 ## Step 10 | Create a Hyperlink
 You can link to another page with the anchor `a` element.
 
-Here is an example linking to https://www.freecodecamp.org:
+Here is an example linking to `https://www.freecodecamp.org`:
 
 <details>
 <summary> <h3> Example Code </h3></summary>
@@ -161,7 +161,7 @@ Here is an example linking to https://www.freecodecamp.org:
 ```
 </details>
 
-Add an anchor element after the paragraph that links to https://freecatphotoapp.com. At this point, the link won’t show up in the preview.
+Add an anchor element after the paragraph that links to `https://freecatphotoapp.com`. At this point, the link won’t show up in the preview.
 
 
 ## Step 11 | Add Link Text to a Hyperlink
@@ -189,13 +189,13 @@ You can turn any text into a link, such as the text inside of a `p` element.
 
 ```html
 <p>I think <a href="https://www.freecodecamp.org">freeCodeCamp</a> is great.</p>
-
 ```
 </details>
-In the text of your p element, turn the words cat photos into a link by adding opening and closing anchor `a `tags around these words. Then set the href attribute to https://freecatphotoapp.com
+
+In the text of your p element, turn the words cat photos into a link by adding opening and closing anchor `a` tags around these words. Then set the href attribute to `https://freecatphotoapp.com`
 
 ## Step 13 | Remove the Second Link
-Now that you turned the text cat photos inside the `p `element into a link, you don't need the second link below the p element. Delete the entire anchor element below the p element.
+Now that you turned the text cat photos inside the `p `element into a link, you don't need the second link below the `p` element. Delete the entire anchor element below the p element.
 
 
 ## Step 14 | Add target attribute to open links in a new tab
@@ -203,7 +203,7 @@ To open links in a new tab, you can use the target attribute on the anchor `a` e
 
 The `target` attribute specifies where to open the linked document.`target="_blank"` opens the linked document in a new tab or window.
 
-Here is the basic syntax for an a element with a target attribute:
+Here is the basic syntax for an `a` element with a target attribute:
 
 
 <details>
@@ -234,13 +234,13 @@ Here is an example of turning an image into a link:
 </details>
 
 Turn the image into a link by surrounding it with necessary element tags. 
-Use https://freecatphotoapp.com as the anchor's href attribute value.
+Use `https://freecatphotoapp.com` as the anchor's href attribute value.
 
 
 ## Step 16 | Add a Section Element
 Before adding any new content, you should make use of a `section` element to separate the cat photos content from the future content.
 
-The `section` element is used to define *sections* in a document, such as *chapters*, *headers*, *footers*, or any other sections of the document. It is a *semantic* element that helps with **SEO** and **accessibility**.
+The `section` element is used to define *sections* in a document, such as *chapters*, *headers*, *footers*, or any other sections of the document. It is a **semantic** element that helps with **SEO** and **accessibility**.
 
 <details>
 <summary> <h3> Example Code </h3></summary>
@@ -266,9 +266,9 @@ Within the second `section` element, add a new `h2`element with the text *Cat Li
 ## Step 19 | Add a Lower Rank Heading Element
 When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
-After the last `h2` element of the second section element, add an `h3` element with this text:
+After the last `h2` element of the second `section` element, add an `h3` element with this text:
 
-*Things cats love:*
+`Things cats love:`
 
 ## Step 20 | Add an Unordered List
 To create an **unordered list** of items, you can use the `ul` element.
@@ -290,7 +290,7 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 </details>
-Within the ul element nest three list items to display three things cats love:
+Within the `ul` element nest three *list items* to display three things cats love:
 
 `cub` `kitten` `puppy` 
 
@@ -303,7 +303,7 @@ And its `alt `attribute value to: `A slice of lasagna on a plate.`
 
 
 ## Step 23 | Add a Figure Element
-The `figure` element represents self-contained content and will allow you to associate an image with a **caption**.
+The `figure` element represents self-contained content and will allow you to associate an image with a *caption*.
 
 Nest the image you just added within a `figure` element.
 
@@ -327,7 +327,20 @@ After the image nested in the figure element, add a `figcaption` element with te
 `People cherish puppies; Everyone likes puppies.`
 
 
-## Step 26
-After the figure element, add another h3 element with the text:
+## Step 26 | Add a Lower Rank Heading Element
+After the *figure* element, add another `h3` element with the text:
 
-Top 3 things cats hate:
+`Top 3 things cats hate:`
+
+## Step 27  | Add an Ordered List
+The code for an ordered list `ol` is similar to an unordered list, but list items in an ordered list are numbered when displayed.
+
+After the second section element's last `h3` element, add an ordered list with these three *list items*:
+
+`Lack of flexible working` `Poor work-life balance` `quiet firing`
+
+## Step 28 | Add a Figure Element
+After the *ordered list*, add another *figure* element.
+
+## Step 29 | Add an Image to a Figure Element
+Inside the *figure* element you just added, nest an `img` element with a `src` attribute set to https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
