@@ -345,7 +345,87 @@ After the *ordered list*, add another *figure* element.
 ## Step 29 | Add an Image to a Figure Element
 Inside the *figure* element you just added, nest an `img` element with a `src` attribute set to https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
 
-# Step 30 | Add a Caption to an Image
+# Step 30 | Add an alternative attribute to an Image
 To improve **accessibility** of the *image* you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
+
+## Step 31 | Add a Caption to an Image
+After the last `img` element, add a `figcaption `element with the text `Cats hate other cats`.
+
+## Step 32 | Add Strong Element in the Figcaption
+The `strong `element is used to indicate that some text is of *strong importance* or *urgent*.
+
+In the figcaption you just added, indicate that hate is of strong importance by wrapping it in a strong element.
+
+## Step 33 | Add a New Section
+It is time to add a new section. Add a third `section` element below the second `section` element.
+
+## Step 34 | Add a Heading Element
+Inside the third `section` element, add an `h2` element with the text:
+
+`Cat Form`
+
+## Step 35  | Add a Form Element
+Now you will add a web form to collect information from users.
+
+The `form` element is used to get information from a user like their name, email, and other details.
+
+After the `Cat Form` heading, add a `form` element.
+
+## Step 36 | Add an Action Attribute to a Form
+The `action` attribute indicates where form data should be sent.
+
+Here is an example of a `form` element with an `action` attribute:
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<form action="/submit-url"></form>
+```
+</details>
+
+In the example, `action="/submit-url"` tells the browser that the form data should be sent to the path `/submit-url`.
+
+Add an action attribute with the value `https://freecatphotoapp.com/submit-cat-photo` to the form element.
+
+## Step 37 | Add an Input Element
+The `input` element allows you several ways to collect data from a *web form*. Like i`mg` elements, input elements are **self-closing** and do not need closing tags.
+
+Nest an `input` element in the form element.
+
+## Step 38 | Add a Type Attribute to an Input Element
+There are many kinds of inputs you can create using the `type` attribute. You can easily create a password field, reset button, or a control to let users select a file from their computer.
+
+Create a *text field* to get text input from a user by adding the `type` attribute with the value `text`to the input element.
+
+## Step 39 | Add a Name Attribute to an Input Element
+In order for a form's data to be accessed by the location specified in the `action` attribute, you must give the text field a `name` attribute and assign it a value to represent the data being submitted.
+
+Here is an example of an input element with a `name` attribute:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<input type="text" name="name">
+```
+</details>
+
+Add the `name` attribute with the value `catphotourl` to your text field.
+
+
+
+## Step 40 | Add a Placeholder Attribute to an Input Element
+*Placeholder* text is used to give people a **hint ** about what kind of information to enter into an input.
+
+Here is an example of an `input` element with a `placeholder` set to Ex. Jane Doe:
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<input type="text" placeholder="Ex. Jane Doe">
+```
+</details>
+
+Add the placeholder text cat photo URL to your input element.
