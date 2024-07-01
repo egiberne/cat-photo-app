@@ -344,3 +344,8 @@ After the *ordered list*, add another *figure* element.
 
 ## Step 29 | Add an Image to a Figure Element
 Inside the *figure* element you just added, nest an `img` element with a `src` attribute set to https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
+
+# Step 30 | Add a Caption to an Image
+To improve **accessibility** of the *image* you added, add an `alt` attribute with the text:
+
+`Five cats looking around a field.`
