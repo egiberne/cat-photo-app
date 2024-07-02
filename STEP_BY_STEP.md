@@ -428,4 +428,14 @@ Here is an example of an `input` element with a `placeholder` set to Ex. Jane Do
 ```
 </details>
 
-Add the placeholder text cat photo URL to your input element.
+Add the *placeholder* text `cat photo URL` to your `input` element.
+
+
+## Step 41 | Add a Required Attribute to an Input Element
+To prevent a user from submitting your form when required information is missing, you need to add the `required` attribute to an `input` element. There's no need to set a value to the `required` attribute. Instead, just add the word required to the `input` element, making sure there is space between it and other attributes.
+
+
+## Step 42 | Create a Submit Button
+The `button` element is used to create a clickable button.
+
+Add a `button` element with the text `Submit` below the `input` element. The default behavior of clicking a form button without any attributes submits the form to the location specified in the form's action attribute.
