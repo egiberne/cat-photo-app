@@ -438,4 +438,93 @@ To prevent a user from submitting your form when required information is missing
 ## Step 42 | Create a Submit Button
 The `button` element is used to create a clickable button.
 
-Add a `button` element with the text `Submit` below the `input` element. The default behavior of clicking a form button without any attributes submits the form to the location specified in the form's action attribute.
+Add a `button` element with the text `Submit` below the `input` element. The default behavior of clicking a form button without any attributes submits the form to the location specified in the form's `action` attribute.
+
+
+## Step 43 | Add a Button Element with a Type Attribute
+Even though you added your button below the text input, they appear next to each other on the page. That's because both `input` and `button` elements are *inline* elements, which don't appear on new lines.
+
+The button you added will submit the form by default. However, relying on default behavior may cause confusion. Add the `type` attribute with the value submit to the button to make it clear that it is a submit button.
+
+## Step 44 | Add Radio Buttons
+You can use `radio` buttons for questions where you want only one answer out of multiple options.
+
+Here is an example of a `radio` button with the option of cat:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<input type="radio"> cat
+```
+</details>
+Remember that `input` elements are self-closing.
+
+Before the text input, add a radio button with the option set as:
+
+`Indoor`
+
+## Step 45 | Add a Label Element for the input
+`label` elements are used to help associate the text for an `input `element with the `input` element itself (especially for assistive technologies like screen readers).
+
+Here is an example of a `label` element with a `radio` button:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<label><input type="radio"> cat</label>
+```
+</details>
+
+In the example, clicking on the word "cat" will also select the `radio` button.
+
+Nest your `radio` button inside a label element.
+
+
+## Step 46 | Add an Id Attribute to a Radio Button
+The `id` attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
+
+Here is an example of an `input` element with an id attribute:
+
+<details> 
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<input id="email">
+```
+</details>
+
+Add an `id` attribute with the value indoor to the `radio` button. When elements have multiple attributes, the order of the attributes doesn't matter.
+
+## Step 47 | Create another Radio Button
+Create another `radio `button below the first one. *Nest* it inside a `label `element with `Outdoor` as the `label` text. Give the `radio` button an `id` attribute with `outdoor` as the value.
+
+
+## Step 48 | Add a Name Attribute to a Radio Button
+Notice that both `radio` buttons can be selected at the same time. To make it so selecting one radio button automatically deselects the other, both buttons must have a `name` attribute with the same value.
+
+Here is an example of two `radio` buttons with the same `name `attribute:
+
+<details> 
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<input type="radio" name="meal"> Breakfast
+<input type="radio" name="meal"> Lunch
+```
+</details>
+
+Add the `name `attribute with the value `indoor-outdoor` to both `radio` buttons.
+
+
+## Step 49 | Add a Value Attribute to a Radio Button
+If you select the Indoor radio button and submit the form, the form data for the button is based on its `name` and `value` attributes. Since your `radio` buttons do not have a `value` attribute, the form data will include *indoor-outdoor=on*, which is not useful when you have multiple buttons.
+
+Add a `value` attribute to both radio buttons. For convenience, set the button's v`alue` attribute to the same value as its id attribute.
+
+
+## Step 50 | Add a Fieldset Element for the radio buttons
+The `fieldset` element is used to group related `inputs `and `labels` together in a web form. `fieldset` elements are *block-level* elements, meaning that they appear on a **new line**.
+
+Nest the Indoor and Outdoor `radio` buttons within a `fieldset` element, and don't forget to indent the `radio` buttons.
