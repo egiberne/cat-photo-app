@@ -528,3 +528,22 @@ Add a `value` attribute to both radio buttons. For convenience, set the button's
 The `fieldset` element is used to group related `inputs `and `labels` together in a web form. `fieldset` elements are *block-level* elements, meaning that they appear on a **new line**.
 
 Nest the Indoor and Outdoor `radio` buttons within a `fieldset` element, and don't forget to indent the `radio` buttons.
+
+
+## Step 51 | Add a legend Element to a Fieldset
+The `legend` element acts as a caption for the content in the `fieldset` element. It gives users context about what they should enter into that part of the form.
+
+Add a `legend` element with the text `Is your cat an indoor or outdoor cat?` above both of the radio buttons.
+
+## Step 52 | Add a wew Fieldset Element
+Next, you are going to add some new form `input` elements, so add another `fieldset` element directly below the current `fieldset` element.
+
+## Step 53 | Add a Legend Element to the new Fieldset
+Add a `legend` element with the text `What's your cat's personality?` inside the second `fieldset` element.
+
+Step 54
+Forms commonly use checkboxes for questions that may have more than one answer. The input element with a type attribute set to checkbox creates a checkbox.
+
+Under the legend element you just added, add an input with its type attribute set to checkbox and give it the option of:
+
+Loving
