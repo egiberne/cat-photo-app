@@ -81,12 +81,18 @@
                 <!-- add form element with attribut, action-->
                 <form action="submit-url"> 
                     <!-- add fielset-->
-                    <fielset>
+                    <fieldset>
+                        <!-- add legend-->
+                        <legend> How are you feeling ? </legend>
                         <!-- add label and add input with attribut : type, name, value-->
-                        <label><input id="indoor"  type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
-                        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-                    </fielset>
-                    
+                        <label><input id="happy"  type="radio" name="happy-unhappy" value="happy"> Happy</label>
+                        <label><input id="unhappy" type="radio" name="happy-unhappy" value="unhappy"> Unhappy</label>
+                    </fieldset>
+                    <!-- add a new fieldset-->
+                    <fieldset>
+                        <!-- add a new legend-->
+                        <legend> What are your concerns ? </legend>
+                    </fieldset>
                     <!-- add input element with attributs : type, name, placeholder-->
                     <input type="text" name="photourl" placeholder="photo URL" required>
                     <!--submit button-->
