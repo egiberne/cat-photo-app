@@ -18,19 +18,6 @@ Use HTML tags to add photos, buttons, and other elements to your webpage.
 
 - Learn the most common HTML tags.
 
-<table>
-    <caption> Coding Language </caption>
-    <thead>
-         <tr><th>Status</th><th>HTML</th><th>CSS</th><th>JS </th></tr>
-    </thead>
-    <tbody>
-        <tr><td>Coded</td><td>1</td><td>0</td><td>0</td></tr>
-        <tr><td>Learned</td><td>0</td><td>0</td><td>0</td></tr>
-    </tbody>
-    <tfoot>
-        <tr><th>Outcome</th><th>1</th><th>0</th><th>0</th></tr>
-    </tfoot>
-</table>
 
 ## 🔧 Requirements
 
@@ -48,6 +35,25 @@ Use HTML tags to add photos, buttons, and other elements to your webpage.
 2. Open the project in Visual Studio Code
 3. Open the file, STEP_BY_STEP.md
 4. Follow the [instructions](STEP_BY_STEP.md) in the file
+
+
+## Progresses
+
+Quick overview of the project status.
+<table>
+    <caption> Coding Language </caption>
+    <thead>
+         <tr><th>Status</th><th>HTML</th><th>CSS</th><th>JS </th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Coding</td><td>in-progess</td><td>n/a</td><td>n/a</td></tr>
+        <tr><td>Course</td><td>n/a</td><td>n/a</td><td>n/a</td></tr>
+        <tr><td>Quiz</td><td>n/a</td><td>n/a</td><td>n/a</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><th>Cleared</th><th>n/a</th><th>n/a</th><th>n/a</th></tr>
+    </tfoot>
+</table>
 
 ## 🤝 Acknowledgments
 
