@@ -630,15 +630,15 @@ Nest a `element` with the text `No Copyright - freeCodeCamp.org` within the `foo
 
 
 ## Step 64 | Add a Link to an External Page
-Turn the existing freeCodeCamp.org text into a link by enclosing it in an anchor (a) element. The href attribute should be set to https://www.freecodecamp.org.
+Turn the existing `freeCodeCamp.org` text into a link by enclosing it in an anchor `a` element. The href attribute should be set to `https://www.freecodecamp.org`.
 
 
 ## Step 65 | Add a Head Element
-Notice that everything you've added to the page so far is inside the body element. All page content elements that should be rendered to the page go inside the body element. However, other important information goes inside the head element.
+Notice that everything you've added to the page so far is inside the `body` element. All page content elements that should be rendered to the page go inside the `body` element. However, other important information goes inside the head element.
 
 
 ## Step 66 | Add a Title Element
-The tit`le element determines what browsers show in the title bar or tab for the page.
+The `title` element determines what browsers show in the *title* bar or tab for the page.
 
 Add a `title` element within the `head` element using the text below:`CatPhotoApp`
 
@@ -648,11 +648,11 @@ Add a `head` element above the body element.
 
 
 ## Step 67 | Add an HTML Element  
-Notice that the entire contents of the page are nested within an html element. The html element is the root element of an HTML page and wraps all content on the page.
+Notice that the entire contents of the page are nested within an `html` element. The `html` element is the root element of an *HTML* page and wraps all content on the page.
 
-You can also specify the language of your page by adding the lang attribute to the html element.
+You can also specify the language of your page by adding the lang attribute to the `html` element.
 
-Add the lang attribute with the value en to the opening html tag to specify that the language of the page is English.
+Add the `lang` attribute with the value `en` to the opening `html` tag to specify that the language of the page is *English*.
 
 
 
