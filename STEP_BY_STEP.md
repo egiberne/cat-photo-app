@@ -551,10 +551,16 @@ Next, you are going to add some new form `input` elements, so add another `field
 ## Step 53 | Add a Legend Element to the new Fieldset
 Add a `legend` element with the text `What's your cat's personality?` inside the second `fieldset` element.
 
-Step 54
-Forms commonly use checkboxes for questions that may have more than one answer. The input element with a type attribute set to checkbox creates a checkbox.
+## Step 54 | Add a Checkbox
+Forms commonly use checkboxes for questions that may have more than one answer. The `input` element with a `type` attribute set to `checkbox` creates a `checkbox`.
 
-Under the legend element you just added, add an input with its type attribute set to checkbox and give it the option of:
+Under the `legend` element you just added, add an `input` with its `type` attribute set to `checkbox` and give it the option of:
 
-Loving
+`Loving`
+
+
+
+
+
+
 <a href="#">Top</a>
