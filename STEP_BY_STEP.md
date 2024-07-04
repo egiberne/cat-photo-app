@@ -554,9 +554,35 @@ Add a `legend` element with the text `What's your cat's personality?` inside the
 ## Step 54 | Add a Checkbox
 Forms commonly use checkboxes for questions that may have more than one answer. The `input` element with a `type` attribute set to `checkbox` creates a `checkbox`.
 
-Under the `legend` element you just added, add an `input` with its `type` attribute set to `checkbox` and give it the option of:
+Under the `legend` element you just added, add an `input` with its `type` attribute set to `checkbox` and give it the option of: `Loving`
 
-`Loving`
+
+## Step 55 | Add a id attribut for the Checkbox
+Add an `id` attribute with the value `loving` to the `checkbox` input.
+
+## Step 56 | Add a Label Element for the text associated with the Checkbox
+There's another way to associate an `input` element's text with the element itself. You can nest the text within a `label` element and add a `for` attribute with the same value as the `input` element's `id` attribute.
+
+Here is an example of using the for attribute to associate a label with an input element:
+
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
+<label for="breakfast"> Breakfast </label>
+<input id="breakfast" type="radio" name="meal" value="breakfast">
+```
+</details>
+
+Associate the text `Loving` with the `checkbox` by nesting only the text Loving in a `label` element and giving it an appropriate `for` attribute.
+
+
+
+
+
+
+
+
 
 
 
