@@ -46,12 +46,12 @@ Quick overview of the project status.
          <tr><th>Status</th><th>HTML</th><th>CSS</th><th>JS </th></tr>
     </thead>
     <tbody>
-        <tr><td>Coding</td><td>in-progess</td><td>n/a</td><td>n/a</td></tr>
+        <tr><td>Coding</td><td>done</td><td>n/a</td><td>n/a</td></tr>
         <tr><td>Course</td><td>n/a</td><td>n/a</td><td>n/a</td></tr>
         <tr><td>Quiz</td><td>n/a</td><td>n/a</td><td>n/a</td></tr>
     </tbody>
     <tfoot>
-        <tr><th>Cleared</th><th>n/a</th><th>n/a</th><th>n/a</th></tr>
+        <tr><th>Cleared</th><th>done</th><th>n/a</th><th>n/a</th></tr>
     </tfoot>
 </table>
 
