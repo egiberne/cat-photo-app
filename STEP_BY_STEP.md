@@ -601,31 +601,85 @@ Add a value attribute to each `checkbox`. For convenience, set each checkbox's `
 
 <a href="#">Top</a>
 
-## Step 61
-In order to make a checkbox checked or radio button selected by default, you need to add the checked attribute to it.
+## Step 61 | Check a Checkbox by Default
+In order to make a checkbox `checked` or `radio` button selected by default, you need to add the `checked` attribute to it.
 
 Here is an example of a radio button with the checked attribute:
 
-Example Code
+<details>
+<summary> <h3> Example Code </h3></summary>
+
+```html
 <input checked type="radio" name="meal" value="breakfast"> Breakfast
-There's no need to set a value to the checked attribute. Instead, just add the word checked to the input element, making sure there is space between it and other attributes.
+```
+</details>
+
+There's no need to set a value to the `checked` attribute. Instead, just add the word `checked` to the input element, making sure there is space between it and other attributes.
 
 Make the first radio button and the first checkbox selected by default.
 
 
+## Step 62 | Add a Footer Element
+The `footer` element is used to define a `footer` for a document or `section`. A `footer` typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+
+After the main element, add a footer element.
+
+
+## Step 63 | Add a Paragraph Element to a Footer
+Nest a `element` with the text `No Copyright - freeCodeCamp.org` within the `footer` element.
+
+
+## Step 64 | Add a Link to an External Page
+Turn the existing freeCodeCamp.org text into a link by enclosing it in an anchor (a) element. The href attribute should be set to https://www.freecodecamp.org.
+
+
+## Step 65 | Add a Head Element
+Notice that everything you've added to the page so far is inside the body element. All page content elements that should be rendered to the page go inside the body element. However, other important information goes inside the head element.
+
+
+## Step 66 | Add a Title Element
+The tit`le element determines what browsers show in the title bar or tab for the page.
+
+Add a `title` element within the `head` element using the text below:`CatPhotoApp`
+
+The `head` element is used to contain *metadata* about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
+
+Add a `head` element above the body element.
+
+
+## Step 67 | Add an HTML Element  
+Notice that the entire contents of the page are nested within an html element. The html element is the root element of an HTML page and wraps all content on the page.
+
+You can also specify the language of your page by adding the lang attribute to the html element.
+
+Add the lang attribute with the value en to the opening html tag to specify that the language of the page is English.
 
 
 
+## Step 68 | Add a Doctype Declaration
+All pages should begin with `<!DOCTYPE html>`. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+
+`<!DOCTYPE html>` tells browsers that the document is an **HTML5** document which is the latest version of HTML.
+
+Add this declaration as the first line of the code.
 
 
+## Step 69 | Add a Meta Element
+You can set browser behavior by adding meta elements in the head. Here's an example:
 
+<details>
+<summary> <h3> Example Code </h3></summary>
 
+```html
+<meta attribute="value">
+```
+</details>
 
+Inside the `head` element, nest a meta element with an attribute named `charset`. Set to the value to `utf-8` which tells the browser how to encode characters for the page.
 
+Note that the `meta` element is a void element.
 
-
-
-
+With that last change, you have completed the Cat Photo App project. Congratulations!
 
 
 
