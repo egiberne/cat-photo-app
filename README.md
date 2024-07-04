@@ -18,6 +18,19 @@ Use HTML tags to add photos, buttons, and other elements to your webpage.
 
 - Learn the most common HTML tags.
 
+<table>
+    <caption> Coding Language </caption>
+    <thead>
+         <tr><th>Status</th><th>HTML</th><th>CSS</th><th>JS </th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Coded</td><td>1</td><td>0</td><td>0</td></tr>
+        <tr><td>Learned</td><td>0</td><td>0</td><td>0</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><th>Outcome</th><th>1</th><th>0</th><th>0</th></tr>
+    </tfoot>
+</table>
 
 ## 🔧 Requirements
 
@@ -55,3 +68,5 @@ Use HTML tags to add photos, buttons, and other elements to your webpage.
 ## ⚖️ License
 
 [Unlicense](LICENSE)
+
+<a href="#">Top</a>
