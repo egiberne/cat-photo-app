@@ -163,6 +163,7 @@ Here is an example linking to `https://www.freecodecamp.org`:
 
 Add an anchor element after the paragraph that links to `https://freecatphotoapp.com`. At this point, the link won’t show up in the preview.
 
+<a href="#">Top</a>
 
 ## Step 11 | Add Link Text to a Hyperlink
 A link's text must be placed between the opening and closing tags of an anchor `a` element.
@@ -273,7 +274,10 @@ After the last `h2` element of the second `section` element, add an `h3` element
 ## Step 20 | Add an Unordered List
 To create an **unordered list** of items, you can use the `ul` element.
 
-After the h3 element with the Things cats love: text, add an **unordered list**, `ul` element. Note that nothing will be displayed at this point.
+After the `h3` element with the Things cats love: text, add an **unordered list**, `ul` element. Note that nothing will be displayed at this point.
+
+
+<a href="#">Top</a>
 
 ## Step 21 | Add List Items to the Unordered List
 The `li` element is used to create a list item in an ordered or unordered list.
@@ -349,6 +353,9 @@ Inside the *figure* element you just added, nest an `img` element with a `src` a
 To improve **accessibility** of the *image* you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
+
+
+<a href="#">Top</a>
 
 ## Step 31 | Add a Caption to an Image
 After the last `img` element, add a `figcaption `element with the text `Cats hate other cats`.
@@ -430,6 +437,8 @@ Here is an example of an `input` element with a `placeholder` set to Ex. Jane Do
 
 Add the *placeholder* text `cat photo URL` to your `input` element.
 
+
+<a href="#">Top</a>
 
 ## Step 41 | Add a Required Attribute to an Input Element
 To prevent a user from submitting your form when required information is missing, you need to add the `required` attribute to an `input` element. There's no need to set a value to the `required` attribute. Instead, just add the word required to the `input` element, making sure there is space between it and other attributes.
@@ -529,6 +538,7 @@ The `fieldset` element is used to group related `inputs `and `labels` together i
 
 Nest the Indoor and Outdoor `radio` buttons within a `fieldset` element, and don't forget to indent the `radio` buttons.
 
+<a href="#">Top</a>
 
 ## Step 51 | Add a legend Element to a Fieldset
 The `legend` element acts as a caption for the content in the `fieldset` element. It gives users context about what they should enter into that part of the form.
@@ -547,3 +557,4 @@ Forms commonly use checkboxes for questions that may have more than one answer. 
 Under the legend element you just added, add an input with its type attribute set to checkbox and give it the option of:
 
 Loving
+<a href="#">Top</a>
