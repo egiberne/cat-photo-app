@@ -594,13 +594,14 @@ Add a final `checkbox` after the previous one with an `id` attribute value of `e
 Also add a `label` element to the right of the new `checkbox` with text `Energetic`. Make sure to associate the `label` element with the new checkbox.
 
 
-## Step 60
+## Step 60 | Add a Value Attribute to the Checkbox
 Like `radio` buttons, `form` data for selected checkboxes are `name` / `value` attribute pairs. While the `value` attribute is optional, it's best practice to include it with any checkboxes or `radio` buttons on the page.
 
 Add a value attribute to each `checkbox`. For convenience, set each checkbox's `value` attribute to the same *value* as its `id` attribute.
 
+<a href="#">Top</a>
 
-Step 61
+## Step 61
 In order to make a checkbox checked or radio button selected by default, you need to add the checked attribute to it.
 
 Here is an example of a radio button with the checked attribute:
@@ -610,6 +611,65 @@ Example Code
 There's no need to set a value to the checked attribute. Instead, just add the word checked to the input element, making sure there is space between it and other attributes.
 
 Make the first radio button and the first checkbox selected by default.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
